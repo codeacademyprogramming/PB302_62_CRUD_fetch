@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D09697D2-24DB-40AB-B2FE-5E0526FBE316}|ConsoleWeb\\ConsoleWeb.csproj|c:\\users\\elchin\\desktop\\codelesson\\62. 08-04-2024\\pb302_consoletoweb\\consoleweb\\consoleweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D09697D2-24DB-40AB-B2FE-5E0526FBE316}|ConsoleWeb\\ConsoleWeb.csproj|solutionrelative:consoleweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\Program.cs",
+              "RelativeToolTip": "ConsoleWeb\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:28:26.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elchin\\Desktop\\CodeLessons\\60. 04-04-2024\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj": {}
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elchin\\Desktop\\CodeLessons\\60. 04-04-2024\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLessons\\60. 04-04-2024\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj",
         "projectName": "ConsoleWeb",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLessons\\60. 04-04-2024\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\ConsoleWeb.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLessons\\60. 04-04-2024\\ConsoleWeb\\ConsoleWeb\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\62. 08-04-2024\\PB302_ConsoleToWeb\\ConsoleWeb\\ConsoleWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,11 +38,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -74,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

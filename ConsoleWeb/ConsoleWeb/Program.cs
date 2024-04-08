@@ -2,6 +2,7 @@
 
 using ConsoleWeb;
 using ConsoleWeb.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 AppDbContext appDbContext = new AppDbContext();
 
@@ -26,12 +27,18 @@ app.UseCors("AllowAll");
 app.MapGet("/", () =>
 {
     return "Hello, World!";
-});
+}); 
 
 app.MapGet("/products", () =>
 {
     return appDbContext.Products.ToList();
 });
+
+app.MapGet("/products/search", (string name) =>
+{
+    return appDbContext.Products.Where(x=>x.Name.Contains(name)).ToList();
+});
+
 
 app.MapGet("/products/{id}", (int id) =>
 {
@@ -42,13 +49,42 @@ app.MapGet("/products/{id}", (int id) =>
     return Results.Ok(data);
 });
 
-app.MapPost("/products", (Product product) =>
+
+app.MapPost("/products", ( Product product) =>
 {
     appDbContext.Add(product);
     appDbContext.SaveChanges();
 
-    return Results.Ok();
+    return Results.Created();
 });
+
+app.MapPut("/products/{id}", (int id,Product product) =>
+{
+    Product existProduct = appDbContext.Products.Find(id);
+
+    if (existProduct == null) return Results.NotFound("product not found!");
+
+    existProduct.Name = product.Name;
+    existProduct.Price = product.Price;
+
+    appDbContext.SaveChanges();
+
+    return Results.NoContent();
+});
+
+
+app.MapDelete("/products/{id}", (int id) =>
+{
+    Product product = appDbContext.Products.Find(id);
+
+    if (product == null) return Results.NotFound("product not found!");
+
+    appDbContext.Remove(product);
+    appDbContext.SaveChanges();
+
+    return Results.NoContent();
+});
+
 
 
 app.Run();

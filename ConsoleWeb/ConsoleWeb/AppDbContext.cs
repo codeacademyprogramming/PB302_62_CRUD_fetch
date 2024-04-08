@@ -15,7 +15,7 @@ namespace ConsoleWeb
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MOON00\\LOCALHOST;Database=webdb1;Trusted_connection=true");
+            optionsBuilder.UseSqlServer("Server=MOON00\\NEW;Database=webdb1;Trusted_connection=true");
         }
     }
 }
